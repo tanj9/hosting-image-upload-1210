@@ -39,6 +39,8 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
+# dot env
+gem "dotenv-rails"
 
 # Gem for Le Wagon Front setup
 gem "bootstrap", "~> 5.2"
